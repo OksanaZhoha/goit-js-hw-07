@@ -33,10 +33,3 @@ const markup = images.map((image) => `<li><img class="picture" src=${image.url} 
 
 list.insertAdjacentHTML('beforeend', markup);
 const pictures = document.querySelectorAll('.picture');
-
-list.style.display = 'flex';
-list.style.flexWrap = 'wrap';
-list.style.listStyle = 'none';
-list.style.gap = '24px';
-list.style.rowGap = '48px';
-list.style.justifyContent = 'center';
