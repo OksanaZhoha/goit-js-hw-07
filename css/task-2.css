@@ -1,9 +1,13 @@
 img {
   display: block;
+  width: 360px;
 }
 
 ul {
   text-decoration: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
 }
 
 li {
@@ -12,12 +16,12 @@ li {
 
 .gallery {
   display: flex;
-  width: 1440px;
-  margin: 100px auto;
-  justify-content: center;
-  align-items: baseline;
-  column-gap: 24px;
-  row-gap: 48px;
   flex-wrap: wrap;
+  gap: 24px;
+  row-gap: 48px;
+  margin: 0;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  justify-content: center;
   background: #fff;
 }
