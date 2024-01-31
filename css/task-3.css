@@ -31,7 +31,9 @@ h1 {
 }
 
 #name-input::placeholder {
+  font-size: 16px;
   font-family: Montserrat;
+  font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.04em;
 }
