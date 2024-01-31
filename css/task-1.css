@@ -5,9 +5,11 @@ ol {
   margin-bottom: 0;
   padding-left: 0;
 }
+
 li {
   list-style: none;
 }
+
 #categories {
   display: inline-flex;
   padding: 24px;
@@ -16,13 +18,14 @@ li {
   border-radius: 8px;
   background: #fff;
 }
+
 .item {
   display: flex;
   padding: 16px;
   flex-direction: column;
-
   gap: 16px;
 }
+
 h2 {
   padding: 0;
   margin: 0;
@@ -30,9 +33,10 @@ h2 {
   font-family: Montserrat;
   font-size: 24px;
   font-weight: 600;
-  line-height: 32px; /* 133.333% */
-  letter-spacing: 0.96px;
+  line-height: 1.33;
+  letter-spacing: 0.04em;
 }
+
 .item > ul > li {
   width: 360px;
   height: 40px;
@@ -42,8 +46,9 @@ h2 {
   color: #2e2f42;
   font-family: Montserrat;
   font-size: 16px;
-  line-height: 24px; /* 150% */
-  letter-spacing: 0.64px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
   padding: 8px 16px;
   margin: 8px 0;
 }
