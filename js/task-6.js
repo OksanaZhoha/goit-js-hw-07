@@ -10,11 +10,12 @@ function getRandomHexColor() {
 }
 
 const createBoxes = amount => {
+  destroyBoxes()
   const elementsToAdd = [];
 	for (let i = 0; i < amount; i++) {
 		const div = document.createElement('div')
-		div.style.height = `${24 + 24 * i}px`
-		div.style.width = `${24 + 24 * i}px`
+		div.style.height = `${30 + 10 * i}px`
+		div.style.width = `${30 + 10 * i}px`
 		div.style.background = getRandomHexColor()
 		elementsToAdd.push(div)
   };
@@ -33,5 +34,5 @@ btnCreate.addEventListener('click', () => {
 console.log(inputNum.value);
 
 btnDestroy.addEventListener('click', () => {
-  destroyBoxes.call()
+  destroyBoxes()
 });
